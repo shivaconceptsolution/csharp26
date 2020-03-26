@@ -1,0 +1,11 @@
+﻿<Window x:Class="WpfControlExample.SliderExample"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SliderExample" Height="300" Width="414.488">
+    <DockPanel VerticalAlignment="Center" Margin="10">
+        <TextBox Text="{Binding ElementName=slValue, Path=Value, UpdateSourceTrigger=PropertyChanged}" DockPanel.Dock="Right" TextAlignment="Right" Width="40" />
+        <Slider Maximum="255" Ticks="45,67,78,89,116"  TickPlacement="BottomRight"  TickFrequency="5" IsSnapToTickEnabled="True" Name="slValue" />
+    </DockPanel>
+
+
+</Window>

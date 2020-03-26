@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfControlExample.ExpanderControl"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ExpanderControl" Height="338.346" Width="571.805">
+    <StackPanel Margin="10">
+        <Expander IsExpanded="True" ExpandDirection="Right">
+            <TextBlock TextWrapping="Wrap" FontSize="18">  
+    Here we can have text which can be hidden/shown using the built-in functionality of the Expander control.
+            </TextBlock>
+        </Expander>
+        <Expander>
+            <TextBlock TextWrapping="Wrap" FontSize="18">  
+    Here we can have text which can be hidden/shown using the built-in functionality of the Expander control.
+            </TextBlock>
+        </Expander>
+        <Expander>
+            <TextBlock TextWrapping="Wrap" FontSize="18">  
+    Here we can have text which can be hidden/shown using the built-in functionality of the Expander control.
+            </TextBlock>
+        </Expander>
+    </StackPanel>
+</Window>
